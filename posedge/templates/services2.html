@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<header class="header-careers">
+    <div class="banner">
+            <h1 style="text-align: center;font-size:80px; color:aliceblue;font-weight:400">Our Services</h1>
+    </div>
+</header>
+<style>
+    .banner{    
+    position: relative;
+    background: url('/static/images/services.jpg');
+    max-height: 50vh;
+    min-height: 50vh;
+    background-size:cover ;
+    background-position: center;
+    padding: 150px 0 250px;
+    min-width: 100vh;
+}
+</style>
+<div class="container-fluid">
+    <div class="container" style="padding-top: 12px;padding-bottom:12px">
+        <div class="row" >
+           <div class="col-lg-8" style="padding: 12px;">
+            <div class="services-details">
+                <h3 class="title-services">
+                    VLSI Design 
+                </h3>
+                <p style="padding-left:12px; ">
+                    RTL Coding in Verilog and VHDL Behavioral model for Verification. IP Integration at SoC Level and Verification.RTL Coding in verilog and VHDL. Verification Suite Development and Automation of the verification  environment Behavioral model for verification
+                  </p>
+                  
+                  <ul style="padding-left: 32px;">
+                    <li><a href="vlsidesign">ASIC/FPGA Design</a></li>
+                    <li><a href="socverfication">SoC Verification</a></li>
+                    <li><a href="physical-design">Physical Design</a></li>
+                    <li><a href="fpgadesign">FPGA Emulation</a></li></ul>
+                  <style>
+                    .text1 ,.text2{
+                        display: none;
+                    }
+                </style>        
+                 
+            </div>
+           </div>
+           <div class="col-lg-4">
+               <img src="{% static 'images/services1.jpeg' %}" alt="" height="350px" width="100%" srcset="" style="padding-left: 45px;padding-top:44px;">
+           </div>
+        </div>
+        <div class="row" >
+            <div class="col-lg-4">
+                <img src="{% static 'images/services2.jpeg' %}" alt="" height="350px" width="100%" srcset="" style="padding-left: 45px;padding-top:44px;">
+            </div>
+            <div class="col-lg-8" style="padding: 12px;">
+             <div class="services-details">
+                 <h3 class="title-services">
+                     Embedded Design Services
+                 </h3>
+                 <p >
+                     Our Embedded System team has deep expertise in realizing product development from concepts for a wide range of application areas on cutting-ege technologies
+                     <br>
+                     Explore our Embedded design Services:
+                     <ul style="padding-left: 32px;">
+                        <!-- <li><a href="embeddedsystem">ASIC/FPGA Design</a></li> -->
+                        <li>
+                            <a href="high-speed-circuit-design">
+                            High Speed Circuit & Board Design</a></li>
+                        <li><a href="firmware-devlopment">Firmware Development</a></li>
+                        <li><a href="bsp-driver-development">BSP and Drivers Development</a></li>
+                        <li><a href="product-testing">Product Testing & Automation</a></li>
+
+                    </ul>
+                   </p>
+               
+                   
+                  
+             </div>
+            </div>
+           
+         </div>
+         <div class="row" >
+            <div class="col-lg-8" style="padding: 12px;">
+             <div class="services-details">
+                 <h3 class="title-services">
+                     Cloud, IoT and Application Development Services
+                 </h3>
+                 <p style="padding-left:12px; ">
+                    Our application development team has immense experience in a wide range of application development on Android/iOS platforms and also on developing backend server development including advanced geofencing and low-latency data buffering implementations on Google IoT cloud and Amazon AWS platform
+                     
+                   </p>
+                   
+                   <!-- <button class="btn btn-primary" href="cloud-application"><a href="cloud-application" style="color:antiquewhite">ReadMore</a></button> -->
+                     
+                  <ul style="padding-left: 32px;">
+                    <li><a href="cloud-application">Cloud Computing</a></li>
+                    <li><a href="#">Mobile Application Development</a></li>
+                   </ul>       
+                  
+             </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="{% static 'images/cloud.jpeg' %}" alt="" height="300px" width="100%" srcset="" style="padding-left: 45px;padding-top:44px;">
+            </div>
+         </div>
+    </div>
+    </div>
+{% endblock %}

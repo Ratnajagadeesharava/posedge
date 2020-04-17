@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <header class="header-careers">
+        <div class="banner">
+                <h1 style="text-align: center;font-size:80px; color:rgb(247, 239, 244);font-weight:400">Careers</h1>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="container careerscontainer">
+            <!-- <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci quibusdam consequatur praesentium atque eum. Corporis mollitia temporibus vitae. Adipisci laudantium nulla vitae at, atque exercitationem veritatis quibusdam esse fuga eligendi!</h2> -->
+            <h3 > Why Posedge</h3>
+                <p class="pass">
+                    Why Posedge is looking for smart and innovative people with greate attitude and critical thinking. If you are passionate to explore your abilities in the areas of  VLSI Design, Embedded Systems, PCB Design and RF Engineering, let us know by sending your resume to <a href="#" style="color: blue;"> careers@posedge.in</a>
+                </p>
+                <br>
+        </div>
+    </div>
+    <!-- <div class="container-fluid">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-lg-0"></div>
+                <div class="col-lg-4" style="padding-left:80px;">
+                    <div class="card" style="min-height: 60vh;min-width:100%;background-color:aqua">
+                        <div class="text-careers">
+                            <h1>Hardware Engineer </h1>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam omnis harum itaque nostrum odit id minus, aspernatur perspiciatis praesentium nesciunt quod aperiam ex voluptatum expedita pariatur enim officia. Quidem, hic?
+                        </div>
+                    </div>
+                </div>
+     
+                <div class="col-lg-4 " style="padding-left:40px; padding-right: 40px;">
+                    <div class="card" style="min-height: 60vh;min-width:100%;background-color:aqua;">
+
+                    </div>
+                </div>
+     
+                <div class="col-lg-4" style="padding-right:80px;">
+                    <div class="card" style="min-height: 60vh;min-width:100%;background-color:aqua">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4" style="padding-bottom: 40px;">
+                <div class="card card-career">
+                    <h4>Hardware Engineer</h4><br>
+                    <p class="text-careers">Posedge is looking for a Hardware Engineer, to work as part of the Systems team on development of  VLSI and Embedded Systems. Assigned tasks add value to our current
+                        and future products, as well as our production operations.</p><br>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg1">Read More</button>
+                         
+                          
+                </div>
+            </div>
+            <div class="col-sm-4" style="padding-bottom: 40px;">
+                <div class="card card-career">
+                    <h4>Software Engineer</h4> <br>
+                    <p class="text-careers">Posedge is looking for a Software Engineer, to work as part of the Systems team on development of  software and device drivers.
+                        Demonstrate practical experience designing and writing software for embedded Linux systems. <br><br>
+                        <!-- <br> -->
+                    </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg2">Read More</button>
+                         
+                          
+                </div>
+            </div>
+
+            <div class="col-sm-4" style="padding-bottom: 40px;">
+                <div class="card card-career">
+                    <h4>Cloud Engineer</h4> <br>
+                    <p class="text-careers">Posedge is looking for a Cloud Engineer, to work as part of the Systems team on development of  Cloud Application.Engineer  will own the design and implementation
+                        of cloud applications .
+                         Develop and support scalable and reliable cloud applications from top to bottom 
+                        <!-- <br> -->
+                    </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg3">Read More</button>
+                         
+                          
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document" >
+          <div class="modal-content" style="height: 100%;">
+          <h4>Hardware Engineering Intern</h4>
+          <p class="modal-text" >
+            <iframe src="{% static 'pdf/hardware1.pdf' %}" height="1000px" width="100%"></iframe>
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document" >
+          <div class="modal-content" style="height: 100%;">
+          <h4>Software Engineering Intern</h4>
+          <p class="modal-text" >
+            <iframe src="{% static 'pdf/software1.pdf' %}" height="1000px" width="100%"></iframe>
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document" >
+          <div class="modal-content" style="height: 100%;">
+          <h4>Cloud Engineering Intern</h4>
+          <p class="modal-text" >
+            <iframe src="{% static 'pdf/cloud1.pdf' %}" height="1000px" width="100%"></iframe>
+          </p>
+          </div>
+        </div>
+      </div>
+    <style>
+        .card1 {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 100%;
+
+          }
+          
+          .card1:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+          }
+          
+          .containercard {
+            padding: 2px 16px;
+          }
+    </style>
+{% endblock %}

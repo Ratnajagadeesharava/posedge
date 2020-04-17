@@ -1,0 +1,236 @@
+{% extends 'base.html' %}
+{% load static  %}
+
+{% block content %}
+<header class="header-careers">
+    <div class="banner">
+            <h1 style="text-align: center;font-size:80px; color:aliceblue;font-weight:400">Our Services</h1>
+    </div>
+</header>
+<style>
+    .banner{    
+    position: relative;
+    background: url('/static/images/services.jpg');
+    max-height: 50vh;
+    min-height: 50vh;
+    background-size:cover ;
+    background-position: center;
+    padding: 150px 0 250px;
+    min-width: 100vh;
+}
+</style>
+<!-- <div class="contianer-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6" style="">
+                <img src="{% static 'images/services1.jpeg' %}" alt="" srcset="" width="100%" class="image-service-left" >
+
+            </div>
+            <div class="col-lg-6">
+               <h4 class="services-title">
+                VLSI Design
+
+               </h4>
+               <p class="services-details">
+                   RTL Coding in Verilog and VHDL Behavioral model for Verification. IP Integration at SoC Level and Verification.
+               </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h4 class="services-title-right"></h4>
+            </div>
+            <div class="col-lg-6" style="">
+                <img src="{% static 'images/services2.jpeg' %}" alt="" srcset="" width="100%">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6" style="">
+                <img src="{% static 'images/services6.jpeg' %}" alt="" srcset="" width="100%" style="padding: 20px;".0.>
+                
+            </div>
+            <div class="col-lg-6">
+                <h4 class="services-title">Software Development</h4>
+                <p class="services-details">Posedge is a  leading  Software Development Company with a strong engineering team to serve the software Development customization maintenance and incubation.Our technological expertise, quality standards,creativity and effciency are combined in our services to deliver maximum value to our customers </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6"></div>
+            <div class="col-lg-6" style="">
+                <img src="{% static 'images/services5.jpeg' %}" alt="" srcset="" width="100%" style="padding: 20px;">
+
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="container-fluid">
+    <div class="container" style="padding-top: 12px;padding-bottom:12px">
+        <div class="row" >
+           <div class="col-lg-8" style="padding: 12px;">
+            <div class="services-details">
+                <h3 class="title-services">
+                    VLSI Design 
+                </h3>
+                <p style="padding-left:12px; ">
+                    RTL Coding in Verilog and VHDL Behavioral model for Verification. IP Integration at SoC Level and Verification.RTL Coding in verilog and VHDL. Verification Suite Development and Automation of the verification  environment Behavioral model for verification<span class="click1" style="color: blue; padding-left:12px;padding-top:0;" >readmore...</span> 
+                    
+                  </p>
+                  
+                  <div class="text1 read1" style="padding-left:12px;">
+                    
+                    Our design team experienced in developing various products have strong problem-solving skills from developing micro-architecture for given specifications and solving issues till tape-outs.
+                    <br>
+                    Our Engineering team expertise in various stages of the design flow, Such as:
+                    <br>
+                    <ul >
+                        <li>
+                            Micro-Architecture development for given specifications
+                        </li>
+                        <li>
+                            SoC Design / ARM-based SoC architecture designs
+                        </li>
+                        <li>RTL Integration & IP subsystem development</li>
+                        <li>Full-Chip / SoC Level Design with Verilog, VHDL, System Verilog</li>
+                        <li>Migration from FPGA to ASIC</li>
+                        <li>Lint, CDC Checks and writing waivers</li>
+                        <li>Integration of digital and analog blocks (Like SERDES PMA + PCS or DDR + Phy etc.,)</li>
+                        <li>Synthesis, STA Constraints for both ASIC and FPGA</li>
+                        <li>Logic equivalency and formality checks</li>
+                        <li>Hands-on experience on Various Industrial EDA tools</li>
+                        <li>Optimization of Power, Area and timing tradeoff</li>
+                        <li>FPGA Prototyping on Xilinx / Altera FPGA Boards</li>
+                    </ul>   
+                    <br>
+                    Our Designers having experience in:
+                    <br>
+                    <ul>
+                        <li>PCIe Gen1,2,3,4,5 With PIPE / SERDES</li>
+                        <li>Ethernet 100G, 40G, 10G, 1G</li>
+                        <li>USB 3.0, USB 2.0 host and device controllers</li>
+                        <li>AXI, AHB</li>
+                      </ul>
+                    </li>
+                    <li>Other Interfaces like APB / SPI / UART /I2C</li>
+                    <li>Multi Clock / Multi-Frequency Domain Designs</li>
+                    <li>Mixed-signal IPs Integration such as:
+                      <ul>
+                        <li>ADC/DAC</li>
+                        <li>PLLs</li>
+                        <li>SERDES PMA PCS</li>
+                        <li>DDR PHY</li>
+                        <li>DVI / HDMI</li>
+                      </ul>
+                    </li>
+                    <li>DDR Controllers</li>
+                    <li>Integration of CPU Cores like ARM Cortex</li>
+                    <li>UDP/IP, TCP/IP</li>
+                    <li>Image Processing</li>
+                  </ul>
+          
+                  </div>
+                    
+                 
+            </div>
+           </div>
+           <div class="col-lg-4">
+               <img src="{% static 'images/services1.jpeg' %}" alt="" height="350px" width="100%" srcset="" style="padding-left: 45px;">
+           </div>
+        </div>
+        <div class="row" >
+            <div class="col-lg-4">
+                <img src="{% static 'images/services2.jpeg' %}" alt="" height="350px" width="100%" srcset="" style="padding-left: 45px;">
+            </div>
+            <div class="col-lg-8" style="padding: 12px;">
+             <div class="services-details">
+                 <h3 class="title-services">
+                     VLSI Design 
+                 </h3>
+                 <p style="padding-left:12px; ">
+                     RTL Coding in Verilog and VHDL Behavioral model for Verification. IP Integration at SoC Level and Verification.RTL Coding in verilog and VHDL. Verification Suite Development and Automation of the verification  environment Behavioral model for verification<span class="click2" style="color: blue; padding-left:12px;padding-top:0;" >readmore...</span> 
+                     
+                   </p>
+                   
+                   <div class="text2 read2" style="padding-left:12px;">
+                     
+                     Our design team experienced in developing various products have strong problem-solving skills from developing micro-architecture for given specifications and solving issues till tape-outs.
+                     <br>
+                     Our Engineering team expertise in various stages of the design flow, Such as:
+                     <br>
+                     <ul>
+                         <li>
+                             Micro-Architecture development for given specifications
+                         </li>
+                         <li>
+                             SoC Design / ARM-based SoC architecture designs
+                         </li>
+                         <li>RTL Integration & IP subsystem development</li>
+                         <li>Full-Chip / SoC Level Design with Verilog, VHDL, System Verilog</li>
+                         <li>Migration from FPGA to ASIC</li>
+                         <li>Lint, CDC Checks and writing waivers</li>
+                         <li>Integration of digital and analog blocks (Like SERDES PMA + PCS or DDR + Phy etc.,)</li>
+                         <li>Synthesis, STA Constraints for both ASIC and FPGA</li>
+                         <li>Logic equivalency and formality checks</li>
+                         <li>Hands-on experience on Various Industrial EDA tools</li>
+                         <li>Optimization of Power, Area and timing tradeoff</li>
+                         <li>FPGA Prototyping on Xilinx / Altera FPGA Boards</li>
+                     </ul>   
+                     <br>
+                     Our Designers having experience in:
+                     <br>
+                     <ul>
+                         <li>PCIe Gen1,2,3,4,5 With PIPE / SERDES</li>
+                         <li>Ethernet 100G, 40G, 10G, 1G</li>
+                         <li>USB 3.0, USB 2.0 host and device controllers</li>
+                         <li>AXI, AHB</li>
+                       </ul>
+                     </li>
+                     <li>Other Interfaces like APB / SPI / UART /I2C</li>
+                     <li>Multi Clock / Multi-Frequency Domain Designs</li>
+                     <li>Mixed-signal IPs Integration such as:
+                       <ul>
+                         <li>ADC/DAC</li>
+                         <li>PLLs</li>
+                         <li>SERDES PMA PCS</li>
+                         <li>DDR PHY</li>
+                         <li>DVI / HDMI</li>
+                       </ul>
+                     </li>
+                     <li>DDR Controllers</li>
+                     <li>Integration of CPU Cores like ARM Cortex</li>
+                     <li>UDP/IP, TCP/IP</li>
+                     <li>Image Processing</li>
+                   </ul>
+           
+                   </div>
+                   <style>
+                     .text1 ,.text2{
+                         display: none;
+                     }
+                 </style>        
+                  
+             </div>
+            </div>
+           
+         </div>
+    </div>
+    </div>
+</div>
+
+<script>
+
+  $(document).ready(function(){
+    $(".click1").click(function(){
+        $(".read1").toggleClass("text1");
+        $(this).text($(this).text() == 'readmore...' ? 'readless...' : 'readmore...');
+    });
+  });
+  $(document).ready(function(){
+    $(".click2").click(function(){
+        $(".read2").toggleClass("text2");
+        $(this).text($(this).text() == 'readmore...' ? 'readless...' : 'readmore...');
+    });
+  });
+</script>
+{% endblock content %}
+    

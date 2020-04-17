@@ -1,0 +1,301 @@
+/* body{
+    background-color: aqua;
+} */
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+    .navbar{
+        padding: 20px 0;
+    }
+    .navbar-brand{
+        font-weight: 1000;
+        text-transform: uppercase;
+        /* font: 4em; */
+        /* color: #eff3ff; */
+        padding-left: 12px;
+        /* color: aqua; */
+
+    }
+    .navbar-light .navbar-nav .navitem-active .nav-link{
+     background: #262626;
+     color: #fff;   
+    }
+.banner{    
+    position: relative;
+    background: url('/static/images/careers.webp');
+    max-height: 50vh;
+    min-height: 50vh;
+    background-size:cover ;
+    background-position: center;
+    padding: 150px 0 250px;
+    min-width: 100vh;
+    
+}
+.content-services{
+    min-width: 100vh;
+    min-height: 80vh;
+}
+.navbar-light{
+    /* display: none; */
+    font-size: large;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    /* background-color: ; */
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+    /* background-color: #092746; */
+    /* background-size: 12em; */
+}
+.navbar-light .navbar-nav .active .nav-link{
+    color: rgb(243, 245, 247);
+    background-color: #092746;
+}
+.head-box{
+    border-left:3px solid red;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.head-box h3{
+    
+    padding-left: 12px;
+}
+.box{
+    padding-top: 20px;
+}
+/* .bodytext */
+.text-box{
+    /* display: none; */
+    padding-left: 12px;
+    font-size: 20px;
+
+}
+footer .footer{
+    /* display: none; */
+    height: 50vh;
+    background-color: #071629;
+    color: #e6e6e6;
+}
+.footer-links{
+    /* color: red; */
+    text-align: center;
+    list-style:none;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.footer-links li{
+    padding-top: 0px;
+    
+}
+.footer-links h4{
+    color: #1f242b;
+}
+.footer-links .address{
+    /* padding-top: 10px; */
+    
+}
+/* .content-main{s */
+    /* display: none; */
+/* } */
+.section-title{
+    /* justify-content: right; */
+    text-align: center;
+    /* font-size: 1px; */
+    font-size: x-large;
+    font-weight: 900;
+    /* padding-left: -25px; */
+    /* border-bottom:12px solid #071629 5 ; */
+    /* padding-bottom: 6px;
+    padding-top: 6px;
+    color: red;
+    border-left:3px solid red; */
+}
+.partners{
+    /* justify-con
+    paddintent: right; */
+    /* background-color: #577194; */
+    background-color: #ffffff;
+    /* padding: ; */
+    justify-content: right;
+    padding-top: 12px;
+    padding-left: 25px;   
+    /* padding-right:25px;  */
+}
+.partner-row{
+    padding-top: 22px;
+    padding-bottom: 12px;
+  
+}
+.footer-bottom{
+    background-color: #07090a;
+    height: 10vh;
+}
+.footer-style{
+    padding-top: 12px;
+}
+/* <style> */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.containercard {
+  padding: 2px 16px;
+}
+/* </style> */
+/* header.header-careers{
+    background-color: #071629;
+    height: 80vh;
+    width: 100%;
+} */
+.careerscontainer{
+    /* border-left: 4px solid #07090a; */
+    /* align-content: cen   ter; */
+    text-align: center;
+}
+.careerscontainer h3{
+    padding-top:25px;
+    font-size: 40px;
+}
+.careerscontainer .pass{
+    font-size: x-large;
+}
+.text-careers
+{
+    /* color: red;
+    display: red; */
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vh;
+}
+.text-careers h1{
+    /* align */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5vh;
+}
+.card-career{
+    align-content: center;
+    text-align: center;
+    background-color: rgba(230, 232, 238, 0.897) ;
+    /* box-shadow: black; */
+    padding: 8px;
+    border-right-color: #00060aa2 ;
+    border-bottom-color: #07090a;
+    padding-top: 24px;
+    padding-bottom: 5px;
+}
+/* .modal-body .modal-text{
+  */
+/* .modal-text li{
+    font-size: large;
+    text-align: left;
+} */
+.image-service-left{
+    /* display: none; */
+    position: relative;
+    /* right: 0; */
+    /* \ */ 
+    /* left:190px; */
+    /* right: 0px; */
+}
+.services-title{
+    /* display: none;pad */
+    padding-top:20px;
+    padding-left: 12px;
+    font-size: xx-large;
+}
+.services-details{
+    padding-left: 12px;
+    padding-top: 12px;
+    font-size: x-large;
+}
+
+.services{
+    min-width: 100vh;
+    max-width: 100%;
+}
+.title-services{
+    padding-top: 2vh;
+    border-left: 2px solid #071629  ;
+    padding-left: 12px;
+}
+.click1{
+    color: #071629;
+    /* display: none; */
+}
+.click1:hover{
+    cursor: pointer;
+    
+
+}
+.testimonials{
+    background: url('/static/images/test.jpg');
+    background-color: #3f69df;
+    min-height: 100vh;
+    /* min-width: 1vh; */
+    /* max-width: 199vh; */
+    /* width: 100%; */
+    /* min-width: 100%; */
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.testimonials h1{
+    padding: 22px;
+    color: rgb(15, 9, 9);
+    font-size: 3em;
+}
+.card-test{
+    border:solid 1.5px #071629;
+    border-radius: 52px;
+    background-color: #071629;
+    color: white;
+    position: relative;
+    left:70vh;
+    top:10vh;
+    height: 60vh;
+    width: 60vh;
+}
+.card-test .card-image{
+    /* border-radius:2px solid red ; */
+    border: solid blue 0px;
+    border-radius: 50%;
+    position: relative;
+    left: 35%;
+    top: -10%;
+}
+.projects{
+    /* background-color: #07090a; */
+    min-height: 80vh;
+    color:white;
+    padding-top: 0vh;
+    padding-left:20px;
+    color: #071629;
+}
+.card-body{
+    /* background-color: #07090a; */
+    /* display:inline; */
+    color: #07090a;
+    overflow: hidden;
+    
+    
+}
+.card-text{
+    /* color: ; */
+    min-height: 25vh;
+    max-height: 25vh;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+/* .read1 ul{
+    display: none;
+} */

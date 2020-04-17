@@ -1,0 +1,173 @@
+{% extends 'base.html' %}
+{% load static  %}
+
+{% block content %}
+<header class="header-careers">
+    <div class="banner">
+            <h1 style="text-align: center;font-size:80px; color:aliceblue;font-weight:400">Our Services</h1>
+    </div>
+</header>
+<style>
+    .banner{    
+    position: relative;
+    background: url('/static/images/services.jpg');
+    max-height: 50vh;
+    min-height: 50vh;
+    background-size:cover ;
+    background-position: center;
+    padding: 150px 0 250px;
+    min-width: 100vh;
+}
+</style>
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            
+        </div>
+        <div class="col-lg-8">
+            <p class="margin-clear">Our design team experienced in developing various products have strong problem-solving skills from developing micro-architecture for given specifications and solving issues till tape-outs.</p>
+           <br>
+           <p>Our Engineering team expertise in various stages of the design flow, Such as:</p>
+           <ul>
+            <li>Micro-Architecture development for given specifications</li>
+            <li>SoC Design / ARM-based SoC architecture designs</li>
+            <li>RTL Integration & IP subsystem development</li>
+            <li>Full-Chip / SoC Level Design with Verilog, VHDL, System Verilog</li>
+            <li>Migration from FPGA to ASIC</li>
+            <li>Lint, CDC Checks and writing waivers</li>
+            <li>Integration of digital and analog blocks (Like SERDES PMA + PCS or DDR + Phy etc.,)</li>
+            <li>Synthesis, STA Constraints for both ASIC and FPGA</li>
+            <li>Logic equivalency and formality checks</li>
+            <li>Hands-on experience on Various Industrial EDA tools</li>
+            <li>Optimization of Power, Area and timing tradeoff</li>
+            <li>FPGA Prototyping on Xilinx / Altera FPGA Boards</li>
+        </ul>
+        <p>Our Designers having experience in:</p>
+        <ul>
+          <li>High-Speed protocol Interfaces like:
+            <ul>
+              <li>PCIe Gen1,2,3,4,5 With PIPE / SERDES</li>
+              <li>Ethernet 100G, 40G, 10G, 1G</li>
+              <li>USB 3.0, USB 2.0 host and device controllers</li>
+              <li>AXI, AHB</li>
+            </ul>
+          </li>
+          <li>Other Interfaces like APB / SPI / UART /I2C</li>
+          <li>Multi Clock / Multi-Frequency Domain Designs</li>
+          <li>Mixed-signal IPs Integration such as:
+            <ul>
+              <li>ADC/DAC</li>
+              <li>PLLs</li>
+              <li>SERDES PMA PCS</li>
+              <li>DDR PHY</li>
+              <li>DVI / HDMI</li>
+            </ul>
+          </li>
+          <li>DDR Controllers</li>
+          <li>Integration of CPU Cores like ARM Cortex</li>
+          <li>UDP/IP, TCP/IP</li>
+          <li>Image Processing</li>
+        </ul>
+        </div>
+    </div>
+</div> -->
+<div class="container-fluid">
+    <div class="container" style="padding-top: 12px;padding-bottom:12px">
+        <div class="row" >
+           <div class="col-lg-8" style="padding: 12px;">
+            <div class="services-details">
+                <h3 class="title-services">
+                    BSP, DEVICE DRIVERS DEVELOPMENT
+                </h3>
+                <p class="margin-clear">At SION, we have an expert team that can serve clients on selecting the right operating system, as it is extremely important to meet the functional requirements and overall performance of the system. We consider various factors such as maximum operating frequency, processor capability, memory, power requirements and time to market.</p>
+                <br>
+                <p>Our BSP team can support on Operating systems like:</p>
+                <ul>
+                 <li>Linux (For OMAP3530, LPC3520, AM3517, S3C2410)</li>
+                 <li>Android (For OMAP4460, i.MX51, i.MX53, DM3730, PXA270, Samsung S5PV210, etc.,)</li>
+                 <li>Windows (For PXA255, PXA270, OMAP3430)</li>
+                 <li>RTOS / FreeRTOS (Microchip PIC32, LPC1768 etc.,)</li>
+               </ul>
+               <p>Our team expertise in Device Driver Development, on the following:</p>
+               <ul>
+     
+                 <li>Microcontrollers / Processors
+                   <ul>
+                     <li>STMicroelectronics</li>
+                     <li>Intel Xeon Processors</li>
+                     <li>ARM</li>
+                     <li>PIC Microcontrollers</li>
+                   </ul>
+                 </li>
+     
+                 <li>High-speed bus driver development for:
+                   <ul>
+                     <li>PCIe</li>
+                     <li>Ethernet</li>
+                     <li>USB</li>
+                   </ul>
+                 </li>
+     
+                 <li>Interfacings with various FPGAs
+                   <ul>
+                     <li>Xilinx FPGA's (6,7 Series, Ultrascsale, Ultrascale+, etc.,)</li>
+                     <li>Intel (Formally Altera) FPGAs</li>
+                     <li>Microchip / Microsemi FPGAs</li>
+                   </ul>
+                 </li>
+     
+                 <li>Serial Bus driver development
+                   <ul>
+                     <li>SPI</li>
+                     <li>I2C</li>
+                     <li>UART</li>
+                   </ul>
+                 </li>
+     
+                 <li>Display Drivers for:
+                   <ul>
+                     <li>Character LCD</li>
+                     <li>Graphics LCD</li>
+                     <li>TFT LCD</li>
+                   </ul>
+                 </li>
+     
+                 <li>Sensor Device Drivers for:
+                   <ul>
+                     <li>MEMS: Accelerometer, Gyroscope, Magnetometer</li>
+                     <li>Safety & Security: Smoke, Motion, Fire, Temperature & RFID</li>
+                     <li>Industrial: Sensors, RPM, Data Loggers</li>
+                   </ul>
+                 </li>
+     
+                 <li>Storage</li>
+     
+                 <li>Wireless Device Drivers for:
+                   <ul>
+                     <li>WiFi</li>
+                     <li>GSM/GPRS</li>
+                     <li>GPS</li>
+                     <li>Zigbee</li>
+                     <li>Bluetooth</li>
+                   </ul>
+                 </li>
+     
+               </ul>
+                  
+          
+                  <style>
+                    .text1 ,.text2{
+                        display: none;
+                    }
+                </style>        
+                 
+            </div>
+           </div>
+           <div class="col-lg-4">
+               <img src="{% static 'images/services1.jpeg' %}" alt="" height="350px" width="100%" srcset="" style="padding-left: 45px;">
+           </div>
+        </div>
+       
+    </div>
+    </div>
+{%endblock%}

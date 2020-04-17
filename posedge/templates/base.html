@@ -1,0 +1,139 @@
+
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{%static 'styles/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- <div class="container"> -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<!-- <a class="navbar-brand" href="#">logo</a> -->
+<img src="{% static 'images/posedge.png' %}" alt="" srcset="" height="40px;width:100px;" style="padding-left: 20px;">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ml-auto">
+  <li class="nav-item active">
+    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About Us</a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link" href="#">Products</a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link" href="#" style="padding-right:22px ;">Services</a>
+  </li>
+  
+  <li class="nav-item" style="">
+    <!-- <a class="nav-link" href="careers/">Careers</a> -->
+  </li>
+  
+  <!-- <li class="nav-item">
+    <a class="nav-link" href="#" style="padding-right: 25px;">Resources</a>
+  </li> -->
+  
+</ul>
+<!-- <form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form> -->
+</div>
+
+</nav>
+        <!-- </div> -->
+    </header>
+    {% block content%}
+       
+    {% endblock %}
+    <footer>
+      <div class="container-fluid footer">
+          <div class="container-fluid">
+            <div class="row">
+              <!-- col-sm-1 -->
+              <div class="col-sm-3">
+                <ul class="footer-links" style="text-align: left; padding-left:40px;"> 
+                  <li class="address">Centre for Innovation and Entrepreunership </li>
+                    <li class="address">IIIT Hyderabad, Ground Floor,</li>
+                    <li class="address">Vindhya C4, IIIT-H Campus, Gachibowli</li>
+                    <li class="address">Hyderabad-500032</li>
+                    <li class="address">Telangana, India.
+  
+                    </li>
+                    
+                    <li class="address" style="padding-top: 20px;">
+                     Phone: +91 7032499651
+                    </li>
+                   
+                    <li class="address" style="padding-top: 20px;">
+                      E-Mail:contact@gotweet.in
+                    </li></ul>
+              </div>
+              <div class="col-sm-3">
+                <ul class="footer-links" >    
+                          <!-- <h4 >Location</h4> -->
+                  <li style="padding-top: 12px;">Home</li>
+                  <li style="padding-top: 12px;">About Us</li>
+                  <li style="padding-top: 12px;">Products</li>
+                  <li style="padding-top: 12px;">Services</li>
+                  <li style="padding-top: 12px;">Careers</li>
+                  <li style="padding-top: 12px;">News</li>
+                 </ul>
+              </div>
+              <!-- </div> -->
+              <div class="col-sm-2" style="text-align: center;">
+                <h3 style="padding-top: 100px;align-content:center">Follow Us</h3>
+                <h1 style="font-size: 55px;"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  <!-- <i class="fab fa-linkedin-in"></i> -->
+                  <i class="fa fa-twitter" aria-hidden="true" style="color: rgb(71, 202, 211);"></i>
+                  <i class="fa fa-youtube" aria-hidden="true" style="color: rgb(250, 79, 79);"></i>  
+                  <!-- <i class="fa fa-" aria-hidden="true"></i> -->
+                  
+
+                  <!-- <i class="fa fa--official" aria-hidden="true"></i> -->
+                  <i class="fa fa-linkedin" aria-hidden="true" style="color: rgb(17, 85, 90);"></i>
+                  <!-- <i class="fa fa-linkedin-in"></i> -->
+                </h1>
+                <!-- <h5><i class="fa fa-facebook-square" aria-hidden="true"></i></h5> -->
+              </div>
+              <div class="col-sm-3" style="padding-top:50px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d394.350877153559!2d78.35009271776043!3d17.44587712104839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93a2d2b21b77%3A0xce2dffbf186da6b!2sCentre%20for%20IT%20in%20Building%20Science%2C%20IIIT%20Hyderabad!5e0!3m2!1sen!2sin!4v1579692984923!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                
+              </div>
+             
+            </div>
+          </div>
+      </div>
+      <div class="container-fluid footer-bottom">
+        <div class="container">
+          <h4 style="padding-top : 24px;" class="footer-title">Designed by NULL INNOVATIONS </h4>
+        </div>
+      </div>
+    </footer>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <!-- <script src=""></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
